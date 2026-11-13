@@ -1,0 +1,1 @@
+{"schema_version": 2, "name": "fixed-baseline", "label": "固定基线", "repository_names": ["DevFlow-AI"], "recommended": true, "cases": [{"id": "default-branch", "question": "默认分支是什么？", "reference": "main", "source_file": "01_repository_facts.md", "must_include": ["main"], "answer_regex": "^main$"}]}
