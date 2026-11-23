@@ -78,6 +78,12 @@ npm run dev
 
 上面手动步骤可以用脚本代替，它会启动 Docker 依赖（PostgreSQL / etcd / MinIO / Milvus），等 PostgreSQL 和 Milvus 就绪后再拉起后端和前端：
 
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass //绕过windows签名限制
+```
+
+
+
 ```powershell
 .\scripts\start_full.ps1
 ```
